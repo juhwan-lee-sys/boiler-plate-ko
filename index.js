@@ -11,7 +11,7 @@ mongoose.connect('mongodb+srv://dlwnghks1541:icaruss77%40@boilerplate.66tvczv.mo
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World! 일하기 싫다')
+  res.send('Hello World!')
 })
 
 app.listen(port, () => {
